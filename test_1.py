@@ -5,4 +5,4 @@ import sys
 def test_imprimir_nombre(capsys):
     imprimir_nombre()
     captured = capsys.readouterr()
-    assert captured.out.strip() == "Ignacio Cedeño"
+    assert captured.out.strip() == "Ignacio B Cedeño"
